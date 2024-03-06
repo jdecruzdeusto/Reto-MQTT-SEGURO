@@ -1,0 +1,1 @@
+mosquitto_sub -h 172.20.207.7 -p 8883 -t "MQTT" --cafile /home/juan/MQTT/mqtt_certs/ca.crt --cert /home/juan/MQTT/mqtt_certs/server.crt --key /home/juan/MQTT/mqtt_certs/server.key -u "juan" -P "1412" --tls-version tlsv1.3
